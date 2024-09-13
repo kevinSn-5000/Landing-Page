@@ -1,3 +1,45 @@
-.page-introduction{
+.page-introduction,
+.footer{
     background-color: #1F2937;
+}
+.page-introduction{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.introduction{
+    display: flex;
+}
+.image-place{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    background-color: #f9faf8;
+    align-items: center;
+}
+.secondary-text{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+ul{
+list-style: none;
+display: flex;
+gap: 16px;
+}   
+
+
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
